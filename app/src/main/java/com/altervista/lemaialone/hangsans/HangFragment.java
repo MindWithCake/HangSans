@@ -1,7 +1,7 @@
 package com.altervista.lemaialone.hangsans;
 
-import android.os.Bundle;
 import android.app.Fragment;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -73,7 +73,7 @@ public class HangFragment extends Fragment implements OnLetterListener, OnClickL
 
 	@Override
 	public void onClick(View view){
-		button.setVisibility(View.GONE);
+		button.setVisibility(View.INVISIBLE);
 		initQuestion();
 	}
 

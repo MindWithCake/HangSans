@@ -1,32 +1,21 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".StartupActivityFragment">
 
     <com.altervista.lemaialone.hangsans.ui.HangView
         android:id="@+id/hangman"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:contentDescription="@string/full_life"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
-
-    <!--<LinearLayout
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp"
-        android:layout_below="@id/hangman"
-        android:layout_centerHorizontal="true"/>-->
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:contentDescription="@string/full_life"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,20 +28,12 @@
         android:paddingLeft="10dp"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:visibility="gone"
-        android:layout_below="@id/hangman"
-        android:layout_centerHorizontal="true"/>
+        android:visibility="invisible"/>
 
     <com.altervista.lemaialone.hangsans.ui.HangKeyboardView
         android:id="@+id/keyboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"/>
+        android:layout_gravity="center_horizontal"/>
 
-   <!-- <com.altervista.lemaialone.hangsans.ui.LetterPicker
-        android:id="@+id/letter_picker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@android:style/Widget.Holo.DatePicker"/>-->
-
-</RelativeLayout>
+</LinearLayout>
