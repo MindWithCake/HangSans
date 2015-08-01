@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LetterView">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+</resources>

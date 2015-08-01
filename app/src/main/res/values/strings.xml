@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HangSans</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="full_life">Full life</string>
+    <string name="learn_question">please, select a category</string>
+
+    <string-array name="fruits">
+        <item>ORANGE</item>
+        <item>BANANA</item>
+        <item>MANGO</item>
+        <item>APPLE</item>
+        <item>STRAWBERRY</item>
+        <item>WATERMELLON</item>
+        <item>PEAR</item>
+        <item>KIWIFRUIT</item>
+        <item>PEACH</item>
+        <item>APRICOT</item>
+        <item>PINEAPPLE</item>
+        <item>TANGERINE</item>
+        <item>POMEGRANATE</item>
+        <item>BLUEBERRY</item>
+        <item>LIME</item>
+        <item>PASSIONFRUIT</item>
+        <item>GRAPEFRUIT</item>
+        <item>RASPBERRY</item>
+        <item>COCONUT</item>
+        <item>AVOCADO</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Auckland</item>
+        <item>Beirut</item>
+        <item>Cartagena</item>
+        <item>Dubai</item>
+        <item>Edinburgh</item>
+        <item>Florence</item>
+        <item>Giza</item>
+        <item>Havana</item>
+        <item>Indianapolis</item>
+        <item>Jakarta</item>
+        <item>Kathmandu</item>
+        <item>London</item>
+        <item>Manila</item>
+        <item>NewDelhi</item>
+        <item>Ottawa</item>
+        <item>Paris</item>
+        <item>QuebecCity</item>
+        <item>Rabat</item>
+        <item>Shanghai</item>
+        <item>Tokyo</item>
+        <item>Uppsala</item>
+        <item>Vladivostok</item>
+        <item>Washington</item>
+        <item>Xian</item>
+        <item>Yangon</item>
+        <item>Zurich</item>
+    </string-array>
+</resources>
