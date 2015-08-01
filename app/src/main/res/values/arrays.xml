@@ -7,4 +7,93 @@
         <item>@drawable/hangman3</item>
         <item>@drawable/hangman4</item>
     </array>
+
+    <string-array name="fruits">
+        <item>@string/ORANGE</item>
+        <item>@string/BANANA</item>
+        <item>@string/MANGO</item>
+        <item>@string/APPLE</item>
+        <item>@string/STRAWBERRY</item>
+        <item>@string/WATERMELON</item>
+        <item>@string/PEAR</item>
+        <item>@string/KIWIFRUIT</item>
+        <item>@string/PEACH</item>
+        <item>@string/APRICOT</item>
+        <item>@string/PINEAPPLE</item>
+        <item>@string/TANGERINE</item>
+        <item>@string/POMEGRANATE</item>
+        <item>@string/BLUEBERRY</item>
+        <item>@string/LIME</item>
+        <item>@string/PASSIONFRUIT</item>
+        <item>@string/GRAPEFRUIT</item>
+        <item>@string/RASPBERRY</item>
+        <item>@string/COCONUT</item>
+        <item>@string/AVOCADO</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>@string/Auckland</item>
+        <item>@string/Beirut</item>
+        <item>@string/Cartagena</item>
+        <item>@string/Dubai</item>
+        <item>@string/Edinburgh</item>
+        <item>@string/Florence</item>
+        <item>@string/Giza</item>
+        <item>@string/Havana</item>
+        <item>@string/Indianapolis</item>
+        <item>@string/Jakarta</item>
+        <item>@string/Kathmandu</item>
+        <item>@string/London</item>
+        <item>@string/Manila</item>
+        <item>@string/NewDelhi</item>
+        <item>@string/Ottawa</item>
+        <item>@string/Paris</item>
+        <item>@string/QuebecCity</item>
+        <item>@string/Rabat</item>
+        <item>@string/Shanghai</item>
+        <item>@string/Tokyo</item>
+        <item>@string/Uppsala</item>
+        <item>@string/Vladivostok</item>
+        <item>@string/Washington</item>
+        <item>@string/Xian</item>
+        <item>@string/Yangon</item>
+        <item>@string/Zurich</item>
+    </string-array>
+
+    <string-array name="animals">
+        <item>@string/Dog</item>
+        <item>@string/Cat</item>
+        <item>@string/Mouse</item>
+        <item>@string/Dormouse</item>
+        <item>@string/Elephant</item>
+        <item>@string/Giraffe</item>
+        <item>@string/Gnu</item>
+        <item>@string/Bison</item>
+        <item>@string/Buffalo</item>
+        <item>@string/Chicken</item>
+        <item>@string/Cow</item>
+        <item>@string/Bull</item>
+        <item>@string/Roster</item>
+        <item>@string/Pig</item>
+        <item>@string/Sheep</item>
+        <item>@string/Horse</item>
+        <item>@string/Bear</item>
+        <item>@string/Monkey</item>
+        <item>@string/Shark</item>
+        <item>@string/Gorilla</item>
+        <item>@string/Snake</item>
+        <item>@string/Spider</item>
+        <item>@string/Bat</item>
+        <item>@string/Lizard</item>
+        <item>@string/Snail</item>
+        <item>@string/Ladybug</item>
+        <item>@string/Butterfly</item>
+        <item>@string/Cockroach</item>
+        <item>@string/Kiwi</item>
+        <item>@string/Kangaroo</item>
+        <item>@string/Flea</item>
+        <item>@string/Deer</item>
+        <item>@string/Gazelle</item>
+        <item>@string/Roe</item>
+    </string-array>
 </resources>

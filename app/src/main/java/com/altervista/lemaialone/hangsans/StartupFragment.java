@@ -25,7 +25,7 @@ public class StartupFragment extends Fragment implements View.OnClickListener {
 			TextView view = (TextView)inflater.inflate(R.layout.view_button, layout, false);
 			view.setTag(item);
 			view.setOnClickListener(this);
-			view.setText(item.label);
+			view.setText(item.labelRes);
 			view.setTextColor(getResources().getColor(R.color.orange));
 			layout.addView(view);
 		}
@@ -45,14 +45,15 @@ public class StartupFragment extends Fragment implements View.OnClickListener {
 	}
 
 	private enum CategoryItem{
-		FRUIT("Name of Fruits", R.array.fruits),
-		CITY("Name of Cities", R.array.cities);
+		FRUIT(R.string.category_fruit, R.array.fruits),
+		CITY(R.string.category_city, R.array.cities),
+		ANIMAL(R.string.category_animals, R.array.animals);
 
-		public final String label;
+		public final int labelRes;
 		public final int arrayRes;
 
-		CategoryItem(String label, int arrayRes){
-			this.label = label;
+		CategoryItem(int label, int arrayRes){
+			this.labelRes = label;
 			this.arrayRes = arrayRes;
 		}
 	}

@@ -1,59 +1,94 @@
 <resources>
     <string name="app_name">HangSans</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="full_life">Full life</string>
     <string name="learn_question">please, select a category</string>
+    <string name="win_button">You win ^^</string>
+    <string name="lose_button">You lose…</string>
 
-    <string-array name="fruits">
-        <item>ORANGE</item>
-        <item>BANANA</item>
-        <item>MANGO</item>
-        <item>APPLE</item>
-        <item>STRAWBERRY</item>
-        <item>WATERMELLON</item>
-        <item>PEAR</item>
-        <item>KIWIFRUIT</item>
-        <item>PEACH</item>
-        <item>APRICOT</item>
-        <item>PINEAPPLE</item>
-        <item>TANGERINE</item>
-        <item>POMEGRANATE</item>
-        <item>BLUEBERRY</item>
-        <item>LIME</item>
-        <item>PASSIONFRUIT</item>
-        <item>GRAPEFRUIT</item>
-        <item>RASPBERRY</item>
-        <item>COCONUT</item>
-        <item>AVOCADO</item>
-    </string-array>
+    <string name="ORANGE">ORANGE</string>
+    <string name="BANANA">BANANA</string>
+    <string name="MANGO">MANGO</string>
+    <string name="APPLE">APPLE</string>
+    <string name="STRAWBERRY">STRAWBERRY</string>
+    <string name="WATERMELON">WATERMELON</string>
+    <string name="PEAR">PEAR</string>
+    <string name="KIWIFRUIT">KIWIFRUIT</string>
+    <string name="PEACH">PEACH</string>
+    <string name="APRICOT">APRICOT</string>
+    <string name="PINEAPPLE">PINEAPPLE</string>
+    <string name="TANGERINE">TANGERINE</string>
+    <string name="POMEGRANATE">POMEGRANATE</string>
+    <string name="BLUEBERRY">BLUEBERRY</string>
+    <string name="LIME">LIME</string>
+    <string name="PASSIONFRUIT">PASSIONFRUIT</string>
+    <string name="GRAPEFRUIT">GRAPEFRUIT</string>
+    <string name="RASPBERRY">RASPBERRY</string>
+    <string name="COCONUT">COCONUT</string>
+    <string name="AVOCADO">AVOCADO</string>
 
-    <string-array name="cities">
-        <item>Auckland</item>
-        <item>Beirut</item>
-        <item>Cartagena</item>
-        <item>Dubai</item>
-        <item>Edinburgh</item>
-        <item>Florence</item>
-        <item>Giza</item>
-        <item>Havana</item>
-        <item>Indianapolis</item>
-        <item>Jakarta</item>
-        <item>Kathmandu</item>
-        <item>London</item>
-        <item>Manila</item>
-        <item>NewDelhi</item>
-        <item>Ottawa</item>
-        <item>Paris</item>
-        <item>QuebecCity</item>
-        <item>Rabat</item>
-        <item>Shanghai</item>
-        <item>Tokyo</item>
-        <item>Uppsala</item>
-        <item>Vladivostok</item>
-        <item>Washington</item>
-        <item>Xian</item>
-        <item>Yangon</item>
-        <item>Zurich</item>
-    </string-array>
+    <string name="Auckland">Auckland</string>
+    <string name="Beirut">Beirut</string>
+    <string name="Cartagena">Cartagena</string>
+    <string name="Dubai">Dubai</string>
+    <string name="Edinburgh">Edinburgh</string>
+    <string name="Florence">Florence</string>
+    <string name="Giza">Giza</string>
+    <string name="Havana">Havana</string>
+    <string name="Indianapolis">Indianapolis</string>
+    <string name="Jakarta">Jakarta</string>
+    <string name="Kathmandu">Kathmandu</string>
+    <string name="London">London</string>
+    <string name="Manila">Manila</string>
+    <string name="NewDelhi">NewDelhi</string>
+    <string name="Ottawa">Ottawa</string>
+    <string name="Paris">Paris</string>
+    <string name="QuebecCity">QuebecCity</string>
+    <string name="Rabat">Rabat</string>
+    <string name="Shanghai">Shanghai</string>
+    <string name="Tokyo">Tokyo</string>
+    <string name="Uppsala">Uppsala</string>
+    <string name="Vladivostok">Vladivostok</string>
+    <string name="Washington">Washington</string>
+    <string name="Xian">Xian</string>
+    <string name="Yangon">Yangon</string>
+    <string name="Zurich">Zurich</string>
+
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Mouse">Mouse</string>
+    <string name="Dormouse">Dormouse</string>
+    <string name="Elephant">Elephant</string>
+    <string name="Giraffe">Giraffe</string>
+    <string name="Gnu">Gnu</string>
+    <string name="Bison">Bison</string>
+    <string name="Buffalo">Buffalo</string>
+    <string name="Chicken">Chicken</string>
+    <string name="Cow">Cow</string>
+    <string name="Bull">Bull</string>
+    <string name="Roster">Roster</string>
+    <string name="Pig">Pig</string>
+    <string name="Sheep">Sheep</string>
+    <string name="Horse">Horse</string>
+    <string name="Bear">Bear</string>
+    <string name="Monkey">Monkey</string>
+    <string name="Shark">Shark</string>
+    <string name="Gorilla">Gorilla</string>
+    <string name="Snake">Snake</string>
+    <string name="Spider">Spider</string>
+    <string name="Bat">Bat</string>
+    <string name="Lizard">Lizard</string>
+    <string name="Snail">Snail</string>
+    <string name="Ladybug">Ladybug</string>
+    <string name="Butterfly">Butterfly</string>
+    <string name="Cockroach">Cockroach</string>
+    <string name="Kiwi">Kiwi</string>
+    <string name="Kangaroo">Kangaroo</string>
+    <string name="Flea">Flea</string>
+    <string name="Deer">Deer</string>
+    <string name="Gazelle">Gazelle</string>
+    <string name="Roe">Roe</string>
+    <string name="category_fruit">Fruits</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_city">Cities of the World</string>
 </resources>

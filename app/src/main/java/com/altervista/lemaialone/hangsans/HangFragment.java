@@ -55,7 +55,6 @@ public class HangFragment extends Fragment implements OnLetterListener, OnClickL
 		button.setOnClickListener(this);
 		keyView.setLetterListener(this);
 
-//		initQuestion();
 		return rootView;
 	}
 
@@ -101,7 +100,7 @@ public class HangFragment extends Fragment implements OnLetterListener, OnClickL
 
 	private void endGame(boolean win){
 		inGame = false;
-		button.setText(win? "You Win ^^" : "You Lose...");
+		button.setText(win? R.string.win_button : R.string.lose_button);
 		button.setVisibility(View.VISIBLE);
 	}
 }
