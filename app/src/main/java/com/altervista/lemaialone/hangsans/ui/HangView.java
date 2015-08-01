@@ -59,7 +59,7 @@ public class HangView extends ImageView {
 		this.word = word.toUpperCase();
 		guessed = new ArrayList<>();
 		imageIndex = 0;
-		paint.setColor(0xff000000);
+		paint.setColor(getResources().getColor(R.color.hang_text));
 		computeStringToDraw();
 		refreshImage();
 	}
@@ -69,7 +69,7 @@ public class HangView extends ImageView {
 		guessed.add(c);
 		try{
 			if(!word.contains(c.toString()) && !refreshImage()){
-				paint.setColor(0xffff0000);
+				paint.setColor(getResources().getColor(R.color.error_feed));
 				for(char ch : word.toCharArray())
 					guessed.add(ch);
 				return false;
@@ -78,11 +78,6 @@ public class HangView extends ImageView {
 		}
 		finally{
 			computeStringToDraw();
-//			RectF rect = new RectF();
-//			Rect intRect = new Rect();
-//			getImageMatrix().mapRect(textRect, rect);
-//			rect.roundOut(intRect);
-//			invalidate(intRect);
 			invalidate();
 		}
 	}
