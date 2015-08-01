@@ -5,43 +5,51 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
  * A placeholder fragment containing a simple view.
  */
-public class StartupFragment extends Fragment implements View.OnClickListener {
+public class StartupFragment extends Fragment {
+	private final static CategoryItem[] ITEMS = CategoryItem.values();
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState){
 		View root = inflater.inflate(R.layout.fragment_startup, container, false);
 
-		LinearLayout layout = (LinearLayout)root.findViewById(R.id.container);
+		ListView list = (ListView)root.findViewById(R.id.category_list);
 
 		CategoryItem[] items = CategoryItem.values();
-		for(CategoryItem item: items){
-			TextView view = (TextView)inflater.inflate(R.layout.view_button, layout, false);
-			view.setTag(item);
-			view.setOnClickListener(this);
-			view.setText(item.labelRes);
-			view.setTextColor(getResources().getColor(R.color.orange));
-			layout.addView(view);
-		}
+
+		list.setAdapter(new ArrayAdapter<CategoryItem>(root.getContext(), 0, items){
+			@Override
+			public View getView(int position, View convertView, ViewGroup parent){
+				if(convertView == null)
+					convertView = LayoutInflater.from(getContext())
+							.inflate(R.layout.view_category_button, parent, false);
+
+				((TextView)convertView).setText(ITEMS[position].labelRes);
+				return convertView;
+			}
+		});
+
+		list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> adapterView, View view, int i, long l){
+				Fragment fragment = HangFragment.newInstance(ITEMS[i].arrayRes);
+				getFragmentManager()
+						.beginTransaction()
+						.replace(R.id.fragment, fragment)
+						.addToBackStack(null)
+						.commit();
+			}
+		});
 
 		return root;
-	}
-
-	@Override
-	public void onClick(View view){
-		CategoryItem item = (CategoryItem)view.getTag();
-		Fragment fragment = HangFragment.newInstance(item.arrayRes);
-		getFragmentManager()
-				.beginTransaction()
-				.replace(R.id.fragment, fragment)
-				.addToBackStack(null)
-				.commit();
 	}
 
 	private enum CategoryItem{

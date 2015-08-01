@@ -5,9 +5,9 @@
     android:layout_height="wrap_content"
     android:textSize="35sp"
     android:background="@drawable/azure_rounded_rect"
-    android:layout_margin="20dp"
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
-    android:gravity="center"/>
+    android:gravity="center"
+    android:textColor="@color/orange"/>
